@@ -2,8 +2,8 @@
     height: 100px;
 }
 
-.h-25px {
-    height: 25px;
+.h-30px {
+    height: 30px;
 }
 
 .circle {
@@ -26,6 +26,10 @@
     background: #e9e8e8
 }
 
+.menu {
+    overflow: hidden;
+}
+
 .menu a {
     font-family: Roboto, Arial, sans-serif;
     background-color: #e9e8e8;
@@ -39,17 +43,17 @@
     transition: all .5s;
 }
 
-.video-title {
+.title-style {
     font-size: 15px;
     font-weight: bold
 }
 
-.video-subtitle {
+.subtitle-style {
     font-size: 10px;
     color: gray;
 }
 
-.video-subtitle a {
+.subtitle-style a {
     color: gray;
     text-decoration: none;
 }
@@ -78,10 +82,35 @@
     max-height: 100%;
 }
 
+.title-picture {
+    width: 35px;
+    height: 35px;
+}
+
 @media (max-width:375px) {
     .video-time {
         position: absolute;
         bottom: 10px;
         right: 20px;
     }
+}
+
+footer img {
+    height: 30px;
+}
+
+.navFixed {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.footer-Fixed {
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
