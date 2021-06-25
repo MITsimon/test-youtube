@@ -53,3 +53,35 @@
     color: gray;
     text-decoration: none;
 }
+
+.video-picture {
+    position: relative;
+    margin: auto
+}
+
+.video-time {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    display: inline;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.video-time-font {
+    color: white;
+}
+
+.picture {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width:375px) {
+    .video-time {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+}
