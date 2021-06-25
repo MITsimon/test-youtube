@@ -1,0 +1,55 @@
+.h-100px {
+    height: 100px;
+}
+
+.h-25px {
+    height: 25px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.w-25px {
+    width: 25px;
+}
+
+.bg-color {
+    background: rgb(105, 52, 17);
+}
+
+.border-b {
+    border-bottom: gray 1px solid;
+}
+
+.bg-gray-light {
+    background: #e9e8e8
+}
+
+.menu a {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #e9e8e8;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #6c757d;
+    color: #fff;
+    transition: all .5s;
+}
+
+.video-title {
+    font-size: 15px;
+    font-weight: bold
+}
+
+.video-subtitle {
+    font-size: 10px;
+    color: gray;
+}
+
+.video-subtitle a {
+    color: gray;
+    text-decoration: none;
+}
