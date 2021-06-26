@@ -11681,7 +11681,7 @@ fieldset:disabled .btn {
   transition: all .5s;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .menu {
     overflow-x: auto;
   }
