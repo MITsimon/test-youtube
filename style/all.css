@@ -11639,16 +11639,20 @@ fieldset:disabled .btn {
   }
 }
 
-.h-100px {
-  height: 100px;
-}
-
 .h-30px {
   height: 30px;
 }
 
 .h-40px {
   height: 40px;
+}
+
+.h-45px {
+  height: 45px;
+}
+
+.h-100px {
+  height: 100px;
 }
 
 .circle {
