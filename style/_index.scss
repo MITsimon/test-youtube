@@ -39,9 +39,12 @@
                 transition: all .5s;
             }
             
-            @media (max-width:768px) {
-                .hide {
-                    display: none;
+            @media (max-width:960px) {
+                .menu {
+                    overflow-x: auto;
+                }
+                .menu ul {
+                    width: 1400px;
                 }
             }
             
@@ -115,4 +118,8 @@
                 position: fixed;
                 bottom: 0;
                 width: 100%;
+            }
+            
+            .footer-p {
+                font-size: 70%
             }
