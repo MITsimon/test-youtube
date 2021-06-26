@@ -11647,6 +11647,10 @@ fieldset:disabled .btn {
   height: 30px;
 }
 
+.h-40px {
+  height: 40px;
+}
+
 .circle {
   border-radius: 50%;
 }
