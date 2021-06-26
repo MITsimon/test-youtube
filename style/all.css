@@ -11667,10 +11667,6 @@ fieldset:disabled .btn {
   background: #e9e8e8;
 }
 
-.menu {
-  overflow: hidden;
-}
-
 .menu a {
   font-family: Roboto, Arial, sans-serif;
   background-color: #e9e8e8;
@@ -11683,6 +11679,12 @@ fieldset:disabled .btn {
   color: #fff;
   -webkit-transition: all .5s;
   transition: all .5s;
+}
+
+@media (max-width: 768px) {
+  .hide {
+    display: none;
+  }
 }
 
 .title-style {

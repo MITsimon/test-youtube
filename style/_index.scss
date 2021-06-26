@@ -1,116 +1,118 @@
-.h-100px {
-    height: 100px;
-}
-
-.h-30px {
-    height: 30px;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
-.w-25px {
-    width: 25px;
-}
-
-.bg-color {
-    background: rgb(105, 52, 17);
-}
-
-.border-b {
-    border-bottom: gray 1px solid;
-}
-
-.bg-gray-light {
-    background: #e9e8e8
-}
-
-.menu {
-    overflow: hidden;
-}
-
-.menu a {
-    font-family: Roboto, Arial, sans-serif;
-    background-color: #e9e8e8;
-    color: #333;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background-color: #6c757d;
-    color: #fff;
-    transition: all .5s;
-}
-
-.title-style {
-    font-size: 15px;
-    font-weight: bold
-}
-
-.subtitle-style {
-    font-size: 10px;
-    color: gray;
-}
-
-.subtitle-style a {
-    color: gray;
-    text-decoration: none;
-}
-
-.video-picture {
-    position: relative;
-    margin: auto
-}
-
-.video-time {
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    display: inline;
-    background-color: black;
-    opacity: 0.8;
-    font-size: 12px;
-}
-
-.video-time-font {
-    color: white;
-}
-
-.picture {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.title-picture {
-    width: 35px;
-    height: 35px;
-}
-
-@media (max-width:375px) {
-    .video-time {
-        position: absolute;
-        bottom: 10px;
-        right: 20px;
-    }
-}
-
-footer img {
-    height: 30px;
-}
-
-.navFixed {
-    z-index: 10;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-}
-
-.footer-Fixed {
-    background-color: white;
-    z-index: 10;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+            .h-100px {
+                height: 100px;
+            }
+            
+            .h-30px {
+                height: 30px;
+            }
+            
+            .circle {
+                border-radius: 50%;
+            }
+            
+            .w-25px {
+                width: 25px;
+            }
+            
+            .bg-color {
+                background: rgb(105, 52, 17);
+            }
+            
+            .border-b {
+                border-bottom: gray 1px solid;
+            }
+            
+            .bg-gray-light {
+                background: #e9e8e8
+            }
+            
+            .menu a {
+                font-family: Roboto, Arial, sans-serif;
+                background-color: #e9e8e8;
+                color: #333;
+                text-decoration: none;
+            }
+            
+            .menu a:hover {
+                background-color: #6c757d;
+                color: #fff;
+                transition: all .5s;
+            }
+            
+            @media (max-width:768px) {
+                .hide {
+                    display: none;
+                }
+            }
+            
+            .title-style {
+                font-size: 15px;
+                font-weight: bold
+            }
+            
+            .subtitle-style {
+                font-size: 10px;
+                color: gray;
+            }
+            
+            .subtitle-style a {
+                color: gray;
+                text-decoration: none;
+            }
+            
+            .video-picture {
+                position: relative;
+                margin: auto
+            }
+            
+            .video-time {
+                position: absolute;
+                bottom: 5px;
+                right: 10px;
+                display: inline;
+                background-color: black;
+                opacity: 0.8;
+                font-size: 12px;
+            }
+            
+            .video-time-font {
+                color: white;
+            }
+            
+            .picture {
+                max-width: 100%;
+                max-height: 100%;
+            }
+            
+            .title-picture {
+                width: 35px;
+                height: 35px;
+            }
+            
+            @media (max-width:375px) {
+                .video-time {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 20px;
+                }
+            }
+            
+            footer img {
+                height: 30px;
+            }
+            
+            .navFixed {
+                z-index: 10;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: white;
+            }
+            
+            .footer-Fixed {
+                background-color: white;
+                z-index: 10;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
